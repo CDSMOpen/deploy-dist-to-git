@@ -10,6 +10,7 @@ module.exports = (grunt)->
 					repo: grunt.option('repo')
 					branch: grunt.option('branch') || 'deploy'
 					base: grunt.option('path') || '.'
+					message: grunt.option('message') || "auto update"
 				src: ["**"]
 
 	#TODO:	Check for presence of "repo" option
